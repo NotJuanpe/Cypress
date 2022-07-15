@@ -1,4 +1,4 @@
-/* describe('12 cuotas', () => {
+describe('12 cuotas', () => {
   it('passes', () => {
     cy.visit('https://tienda.movistar.com.ar/')
     cy.url().should('include', 'https://tienda.movistar.com.ar/')
@@ -9,12 +9,11 @@
     cy.get("#product-item-info_6952 > a > span > span > img").click({force:true})
 
    cy.get("#installments-text").contains('12 cuotas')
-   cy.log(cy.get("#installments-text") + "FcSolido")
 
   })
-}) */
+})
 
-/* describe('Gama Alta', () => {
+describe('Gama Alta', () => {
   it('passes', () => {
     cy.visit('https://tienda.movistar.com.ar/')
     cy.url().should('include', 'https://tienda.movistar.com.ar/')
@@ -26,7 +25,7 @@
     cy.get("#toolbar-amount > span").should('contain', '3')
 
   })
-}) */
+})
 
 describe('Gama Alta', () => {
   it('passes', () => {
